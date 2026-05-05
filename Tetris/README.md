@@ -11,7 +11,7 @@ The game was created using C++ and Qt Widgets. Qt is used to create the game win
 
 ## Features
 
-- Graphical game window using Qt f
+- Graphical game window using Qt
 - 10 x 20 Tetris board
 - Random falling pieces
 - Piece movement
