@@ -1,49 +1,62 @@
 # Random Projects
 
-This repository is a collection of small C++ projects I am building to practice programming, game logic, and problem solving.
+This repository contains a collection of C++ projects I am building to practice programming, problem solving, and game development.
 
-Each folder contains a different project with its own code and files.
+Each folder contains a separate project with its own source code and project files.
 
 ## Projects
 
 ### MathGame
 
-MathGame is a simple math practice game made in C++.
+MathGame is an interactive C++ math game where the player answers random math questions and earns points for correct answers.
 
-The player answers math questions and tries to get the correct answer.
+Skills practiced:
 
-This project helps practice:
-
-- C++ basics
-- User input
-- Random numbers
-- If statements
+- C++ fundamentals
+- Random number generation
+- User input validation
+- Conditional statements
 - Loops
 - Score tracking
-- Simple game logic
+- Basic game logic
 
 ### Tetris
 
-Tetris is a basic C++ game project based on the classic block-stacking game.
+Tetris is a C++ game project based on the classic block-stacking game.
 
-This project helps practice:
+Skills practiced:
 
-- C++ programming
 - Game loops
-- Shapes and movement
-- Collision logic
-- Keyboard controls
-- Score systems
+- Keyboard input
+- Shape movement
+- Collision detection
+- Score tracking
+- C++ project structure
 
-## Repository Structure
+## Purpose
 
-```text
-Random-Projects/
-│
-├── MathGame/
-│   └── Math game files
-│
-├── Tetris/
-│   └── Tetris game files
-│
-└── README.md
+The purpose of this repository is to document my progress as I build small C++ projects and improve my programming skills.
+
+This repository also serves as part of my GitHub portfolio as I continue learning software development.
+
+## Tools and Technologies
+
+- C++
+- CLion
+- CMake
+- Qt
+
+## Future Projects
+
+I plan to continue adding more C++ projects, including:
+
+- Racing game
+- Snake game
+- Quiz game
+- Space shooter game
+- Calculator app
+- More educational games
+
+## Author
+
+Juan
