@@ -1,30 +1,46 @@
 # Qt Tetris Game
 
-This is a simple Tetris game made with C++ and Qt.
+A simple Tetris game built in **C++** using **Qt Widgets**.  
+This project uses a graphical window, keyboard controls, falling blocks, line clearing, scoring, and a game over screen.
 
-The game opens in a window. Blocks fall from the top of the screen. The player moves and rotates the blocks to make full rows. When a row is full, it disappears and the player gets points.
+## Project Description
+
+This project is a basic version of the classic Tetris game. The player controls falling blocks and tries to complete full horizontal lines. When a row is completely filled, it disappears and the player earns points.
+
+The game was created using C++ and Qt Widgets. Qt is used to create the game window, draw the board, draw the blocks, handle keyboard input, and run the game timer.
+
+## Features
+
+- Graphical game window using Qt
+- 10 x 20 Tetris board
+- Random falling pieces
+- Piece movement
+- Piece rotation
+- Collision detection
+- Line clearing
+- Score system
+- Game over screen
 
 ## Controls
 
-| Key | What it does |
+| Key | Action |
 |---|---|
-| Left Arrow | Move left |
-| Right Arrow | Move right |
-| Down Arrow | Move down faster |
-| Up Arrow | Rotate block |
+| Left Arrow | Move piece left |
+| Right Arrow | Move piece right |
+| Down Arrow | Move piece down faster |
+| Up Arrow | Rotate piece |
 
-## What the game has
+## Technologies Used
 
-- A game window
-- Falling blocks
-- Keyboard controls
-- Row clearing
-- Score
-- Game over screen
+- C++
+- Qt Widgets
+- CMake
+- CLion
 
-## Files in this project
+## Project Files
 
 ```text
-README.md
-main.cpp
-CMakeLists.txt
+TetrisQt/
+├── README.md
+├── CMakeLists.txt
+└── main.cpp
